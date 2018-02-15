@@ -1,0 +1,60 @@
+﻿QComboBox {
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid rgb(100, 100, 100);
+        background: rgb(72, 72, 73);
+}
+
+QPushButton {  
+    	/* 边框风格 */  
+    	border-style:outset;   
+    	/* 边框宽度 */  
+    	border-width:1px;   
+    	/* 边框颜色 */  
+    	border-color:rgb(0,0,0);   
+    	/* 边框倒角 */  
+    	border-radius:10px;  
+    
+} 
+
+QPushButton:pressed {    
+    	/* 前景色 */  
+    	color:red; 
+    	/* 使文字有一点移动 */  
+    	padding-left:3px;  
+    	padding-top:3px;  
+}  
+
+QToolButton{  
+    	/* 边框风格 */  
+    	border-style:outset;  
+  
+    	/* 边框宽度 */  
+    	border-width:1px;  
+  
+    	/* 边框颜色 */  
+    	border-color:rgb(0,0,0);  
+  
+    	/* 边框倒角 */  
+    	border-radius:10px;  
+}
+
+QToolButton:pressed {   
+    	/* 前景色 */  
+    	color:red;  
+    	/* 使文字有一点移动 */  
+    	padding-left:3px;  
+    	padding-top:3px;  
+} 
+
+QTabWidget::pane {
+	border-top:0px;
+}
+
+QTabBar::tab:selected { 
+	font:bloder;
+	color:red; 
+}
+
+
+
